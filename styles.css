@@ -34,12 +34,17 @@ pre {
     padding-right: 60px;
 }
 
+button{
+    background-color: rgb(53,85,86); /* Green */
+    padding: 15px 40px 15px 40px;
+    border: none;
+}
+
 .justifyText{
     text-align: justify;
 }
 
 .featureImg{
-
   margin-top: 27px;
 }
 .title{
