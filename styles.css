@@ -1,0 +1,118 @@
+h1 { 
+    font-family: Raleway; 
+    font-size: 23px; font-style: normal; font-variant: normal; 
+    font-weight: 700; line-height: 23px; 
+} 
+    
+h3 { font-family: Raleway; font-size: 17px; font-style: normal; 
+    font-variant: normal; font-weight: 600; line-height: 23px; 
+} 
+
+p { font-family: Raleway; font-size: 14px; font-style: normal; 
+    font-variant: normal; font-weight: 400; line-height: 23px; 
+} 
+
+blockquote { font-family: Raleway; font-size: 17px; font-style: normal; 
+    font-variant: normal; font-weight: 400; line-height: 23px; 
+} 
+pre { 
+    font-family: Raleway; font-size: 11px; font-style: normal; 
+    font-variant: normal; font-weight: 400; line-height: 23px; 
+}
+
+.verticalCenter{
+    margin: 0;
+    position: absolute;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.gridFeature{
+    padding-bottom: 30px;
+    padding-right: 60px;
+}
+
+.justifyText{
+    text-align: justify;
+}
+
+.featureImg{
+
+  margin-top: 27px;
+}
+.title{
+    font-family:'Jomolhari';
+    font-size: 35px; 
+    font-weight: 200; 
+    line-height: normal; 
+    vertical-align:top; 
+    text-align: left;
+}
+
+.quote{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.quoteFrom{
+    text-align: center;
+}
+
+.secondary-color-spacing{
+    color:  rgb(53,85,86);
+    letter-spacing: 2px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+
+/* Style the tab */
+.logo{
+    width: 80px;
+    margin-left: 50px;
+    float:left;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: transparent;
+    float: right;
+    margin-right: 50px;
+
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 20px 50px 20px;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    border-bottom: 4px solid;
+    border-width: 4px;
+    border-color: rgb(53,85,86)
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
