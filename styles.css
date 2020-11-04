@@ -5,7 +5,7 @@ h1 {
 } 
     
 h3 { font-family: Raleway; font-size: 17px; font-style: normal; 
-    font-variant: normal; font-weight: 600; line-height: 23px; 
+    font-variant: normal; font-weight: 550; line-height: 23px; 
 } 
 
 p { font-family: Raleway; font-size: 14px; font-style: normal; 
@@ -18,6 +18,29 @@ blockquote { font-family: Raleway; font-size: 17px; font-style: normal;
 pre { 
     font-family: Raleway; font-size: 11px; font-style: normal; 
     font-variant: normal; font-weight: 400; line-height: 23px; 
+}
+
+/* Image Gallary */
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+  }
+    
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+/* End of Image Gallary */
+
+desc{
+    text-align: start;
 }
 
 .verticalCenter{
@@ -38,11 +61,21 @@ pre {
     position: absolute;
     right: 0px;
 }
-
+/* Buttons */
 button{
     background-color: rgb(53,85,86); /* Green */
     padding: 15px 40px 15px 40px;
     border: none;
+}
+
+.secondaryBttn{
+    border-bottom: 4px solid;
+    border-width: 4px;
+    border-color: rgb(53,85,86);
+    background-color: transparent;
+    color: black;
+    font-weight: 700;
+    margin-right: 60px;
 }
 
 .justifyText{
@@ -61,10 +94,17 @@ button{
     vertical-align:top; 
     text-align: left;
 }
+.logoTitle{
+    font-family:'Jomolhari';
+    font-size: 35px; 
+    font-weight: 200; 
+    line-height: normal; 
+    vertical-align:top; 
+    text-align: left;
+}
 
 .quote{
     text-align: center;
-    margin-top: 100px;
     margin-left: 200px;
     margin-right: 200px;
 }
