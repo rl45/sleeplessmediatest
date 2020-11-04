@@ -34,6 +34,11 @@ pre {
     padding-right: 60px;
 }
 
+.alignRight{
+    position: absolute;
+    right: 0px;
+}
+
 button{
     background-color: rgb(53,85,86); /* Green */
     padding: 15px 40px 15px 40px;
@@ -46,6 +51,12 @@ button{
 
 .featureImg{
   margin-top: 27px;
+}
+
+.secondaryBttn{
+    position: absolute;
+    bottom: 0;
+    right:0
 }
 .title{
     font-family:'Jomolhari';
