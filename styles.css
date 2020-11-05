@@ -277,6 +277,25 @@ button{
 .photographyTitle{
     width: 50%; float:left; background-color: transparent; vertical-align:top;
 }
+.leftImagePhotography{
+    width: 70%; float:left; background-color: transparent; vertical-align:top;
+}
+.rightImagePhotography{
+    width:20%; float:right; vertical-align:top; bottom:0;
+}
+.photographySecondWrapper{
+    background-color: rgb(249, 248, 244); width: 100%; overflow: hidden; box-sizing: border-box; padding-top: 50px; padding-bottom: 50px; position: relative; padding-left: 15%; padding-right: 15%;
+}
+.footerLinksWrapper{
+    width:50%; 
+    float:right; 
+    vertical-align:top; 
+    bottom:0;
+}
+.footerLinksRight{
+    width:50%;
+    float:right;
+}
 
 
 
@@ -339,6 +358,24 @@ button{
     }
     .photographyTitle{
         width: 100%;
+    }
+    .leftImagePhotography{
+        width: 100%; 
+        float:none;
+        margin-bottom: 10%;
+
+    }
+    .rightImagePhotography{
+        width:20%; float:right; vertical-align:top; bottom:0;
+    }
+    .photographySecondWrapper{
+        padding-left: 0%; padding-right: 0%;
+    }
+    .footerLinksWrapper{
+       float: none;
+    }
+    .footerLinksRight{
+        float: none;
     }
  
 
