@@ -332,18 +332,18 @@ button{
     }
     .teamLeftWrapper{
         width: auto;
-        padding-left: 90px;
+        padding-left: 30px;
         padding-right: 10px;
     }
     .teamRightWrapper{
         width: auto;
         margin-top: 50px;
-        padding-left: 90px;
+        padding-left: 30px;
         float: none;
     }
     .team{
-        padding-left: 90px;
-        padding-right: 90px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .alignRight{
         position: static;
@@ -359,7 +359,7 @@ button{
         padding-right: 0px;
     }
     .photographyTitle{
-        padding-left: 90px;
+        padding-left: 30px;
     }
     #photographyTitle{
         width: 50%;
@@ -374,7 +374,7 @@ button{
         width:20%; float:right; vertical-align:top; bottom:0;
     }
     .photographySecondWrapper{
-        padding-left: 90px; padding-right: 90px;
+        padding-left: 30px; padding-right: 30px;
     }
     .footerLinksWrapper{
        float: none;
@@ -383,7 +383,7 @@ button{
         float: none;
     }
     #photographyImage{
-        padding-right: 90px;
+        padding-right: 30px;
     }
     .fullWidth{
         width: 100%;
