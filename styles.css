@@ -319,6 +319,7 @@ button{
     }
     .featureWrapper{
         width: auto;
+        padding-left: 30px;
     }
     .featureImg{
         display: none;
