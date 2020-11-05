@@ -68,6 +68,13 @@ button{
     border: none;
 }
 
+.firstBtn:hover{
+    background-color: transparent;
+    color: rgb(53,85,86) !important;
+    outline: 3px solid rgb(53,85,86);
+    transition: 0.3s;
+}
+
 .secondaryBttn{
     border-bottom: 4px solid;
     border-width: 4px;
@@ -77,6 +84,15 @@ button{
     font-weight: 700;
     margin-right: 60px;
 }
+.secondaryBttn:hover{
+
+    background-color: rgb(53,85,86);
+    color: white;
+    transition: 0.3s;
+    transition-timing-function: ease-in;
+    border: none;
+}
+
 
 .justifyText{
     text-align: justify;
@@ -167,3 +183,33 @@ button{
     border: 1px solid #ccc;
     border-top: none;
   }
+
+  #footer{
+      background-color: rgb(53,85,86);
+      width: 100%; 
+      overflow: hidden; 
+      padding-bottom: 50px; 
+      box-sizing: border-box;
+      padding-top: 50px;
+      padding-left: 90px;
+  }
+
+  .whiteText{
+      color: white;
+      font-weight: 100;
+  }
+
+  .thirdBtn{
+      color: white;
+      font-size: small;
+      font-weight: 500;
+      padding: 12px 40px 12px 40px !important;
+      border: 2px solid white !important;
+  }
+
+  .thirdBtn:hover{
+      color: rgb(53,85,86);
+      background-color: white;
+
+  }
+
