@@ -504,7 +504,20 @@ button{
     }
     
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 2000px) {
+    #footer{
+        padding-left: 150px;
+
+    }
+    .featureWrapper{
+        padding-left: 150px;
+    }
+    .teamLeftWrapper{
+        padding-left: 150px;
+    }
+    .team{
+        padding-left: 150px;
+    }
     
 }
 
