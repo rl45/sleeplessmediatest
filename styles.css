@@ -377,7 +377,7 @@ button{
 
     }
     .rightImagePhotography{
-        width:20%; float:right; vertical-align:top; bottom:0;
+        width:100%; float:right; vertical-align:top; bottom:0;
     }
     .photographySecondWrapper{
         padding-left: 30px; padding-right: 30px;
@@ -475,10 +475,9 @@ button{
         width: 100%; 
         float:none;
         margin-bottom: 10%;
-
     }
     .rightImagePhotography{
-        width:20%; float:right; vertical-align:top; bottom:0;
+        width:100%; float:right; vertical-align:top; bottom:0;
     }
     .photographySecondWrapper{
         padding-left: 90px; padding-right: 90px;
