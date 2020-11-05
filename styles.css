@@ -442,8 +442,10 @@ button{
         padding-right: 0px;
     }
     .photographyTitle{
-        width: 100%;
         padding-left: 90px;
+    }
+    #photographyTitle{
+        width: 50%;
     }
     .leftImagePhotography{
         width: 100%; 
