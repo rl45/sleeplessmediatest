@@ -42,6 +42,7 @@ div.gallery {
 
 desc{
     text-align: start;
+    line-height: 0px; padding-top: 5px;
 }
 
 .verticalCenter{
@@ -306,6 +307,10 @@ button{
 
     .tab{
         margin-right: 0px;
+    }
+
+    .desc{
+        line-height: normal;
     }
 
     .quote{
