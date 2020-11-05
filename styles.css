@@ -428,14 +428,15 @@ button{
     .team{
         padding-left: 90px;
         padding-right: 90px;
-        width: 100%;
     }
     .alignRight{
         position: static;
         margin: 10px;
     }
     div.gallery {
-        width: 40%;
+        width: 50%;
+        margin: 0px;
+        padding-bottom: 50px;
     }
     .photographyFirstWrapper{
         padding-left: 0px; 
