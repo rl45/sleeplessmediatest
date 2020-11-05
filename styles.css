@@ -127,6 +127,8 @@ button{
 
 .quoteFrom{
     text-align: center;
+    font-family: "Avenir Next" !important;
+    font-weight: 400 !important;
 }
 
 .secondary-color-spacing{
@@ -211,5 +213,40 @@ button{
       color: rgb(53,85,86);
       background-color: white;
 
+  }
+
+  .marginSpacing{
+      margin-top: 35px;
+      margin-bottom: 35px;
+  }
+
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .disclaimer{
+      opacity: 0.3 !important;
+      margin-top: 50px;
+      font-size: 10px;
+  }
+
+  .opacityLight{
+      opacity: 0.8 !important;
+  }
+
+  .featureTitle{
+      line-height: 2px;
+  }
+
+  .featureDesc{
+      color: rgb(100,100,100) !important;
+  }
+
+  body{
+      margin: 8px 0px 8px !important;
   }
 

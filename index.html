@@ -9,7 +9,7 @@
 
 </head>
 
-<body>
+<body class="body">
     <!-- Navbar -->
     <div class="row">
         <img class="logo" src="logo.png" alt="Sleepless Media" />
@@ -21,11 +21,11 @@
             <img style="width:35%; text-align:center; padding: 20px 10px 20px;" src="logoTitle.png" />
         </div>
         <div class="tab">
-            <button class="tablinks" onclick="clickHandle(event, 'Cat')">Our Mission</button>
-            <button class="tablinks" onclick="clickHandle(event, 'Bear')">Services</button>
-            <button class="tablinks" onclick="clickHandle(event, 'Dog')">Our Team</button>
-            <button class="tablinks" onclick="clickHandle(event, 'Dog')">New Patients</button>
-            <button class="tablinks" onclick="clickHandle(event, 'Dog')">Get In Touch</button>
+            <button class="tablinks" onclick="clickHandle(event, 'Mission')">Our Mission</button>
+            <button class="tablinks" onclick="clickHandle(event, 'Services')">Services</button>
+            <button class="tablinks" onclick="clickHandle(event, 'Team')">Our Team</button>
+            <button class="tablinks" onclick="clickHandle(event, 'Patients')">New Patients</button>
+            <button class="tablinks" onclick="clickHandle(event, 'Get In Touch')">Get In Touch</button>
         </div>
     </div>
 
@@ -51,20 +51,20 @@
 
                 <!-- Grid Features -->
                 <div class="gridFeature">
-                    <p class="justifyText" style="font-weight: 600;">Think SEO</p>
-                    <p class="justifyText">Purus eget, ipsum erat ut dolor sed id non, pellentesque praesent, lobortis
+                    <p class="justifyText featureTitle" style="font-weight: 600;">Think SEO</p>
+                    <p class="justifyText featureDesc">Purus eget, ipsum erat ut dolor sed id non, pellentesque praesent, lobortis
                         urna nunc ornare
                         cursus id eu varius.</p>
                 </div>
                 <div class="gridFeature">
-                    <p class="justifyText" style="font-weight: 600;">Think Fast Loading</p>
-                    <p class="justifyText">Purus eget, ipsum erat ut dolor sed id non, pellentesque praesent, lobortis
+                    <p class="justifyText featureTitle" style="font-weight: 600;">Think Fast Loading</p>
+                    <p class="justifyText featureDesc">Purus eget, ipsum erat ut dolor sed id non, pellentesque praesent, lobortis
                         urna nunc ornare
                         cursus id eu varius.</p>
                 </div>
                 <div class="gridFeature">
-                    <p class="justifyText" style="font-weight: 600;">Think Optimization</p>
-                    <p class="justifyText">Purus eget, ipsum erat ut dolor sed id non, pellentesque praesent, lobortis
+                    <p class="justifyText featureTitle" style="font-weight: 600;">Think Optimization</p>
+                    <p class="justifyText featureDesc">Purus eget, ipsum erat ut dolor sed id non, pellentesque praesent, lobortis
                         urna nunc ornare
                         cursus id eu varius.</p>
                 </div>
@@ -76,20 +76,20 @@
             <div style="width:50%;float:right;">
                 <!-- Grid Features -->
                 <div class="gridFeature">
-                    <p class="justifyText" style="font-weight: 600;">Think Accessbility</p>
-                    <p class="justifyText">Purus eget, ipsum erat ut dolor sed id non, pellentesque praesent, lobortis
+                    <p class="justifyText featureTitle" style="font-weight: 600;">Think Accessbility</p>
+                    <p class="justifyText featureDesc">Purus eget, ipsum erat ut dolor sed id non, pellentesque praesent, lobortis
                         urna nunc ornare
                         cursus id eu varius.</p>
                 </div>
                 <div class="gridFeature">
-                    <p class="justifyText" style="font-weight: 600;">Think Naming Conventions</p>
-                    <p class="justifyText">Purus eget, ipsum erat ut dolor sed id non, pellentesque praesent, lobortis
+                    <p class="justifyText featureTitle" style="font-weight: 600;">Think Naming Conventions</p>
+                    <p class="justifyText featureDesc">Purus eget, ipsum erat ut dolor sed id non, pellentesque praesent, lobortis
                         urna nunc ornare
                         cursus id eu varius.</p>
                 </div>
                 <div class="gridFeature">
-                    <p class="justifyText" style="font-weight: 600;">Think Retina</p>
-                    <p class="justifyText">Purus eget, ipsum erat ut dolor sed id non, pellentesque praesent, lobortis
+                    <p class="justifyText featureTitle" style="font-weight: 600;">Think Retina</p>
+                    <p class="justifyText featureDesc">Purus eget, ipsum erat ut dolor sed id non, pellentesque praesent, lobortis
                         urna nunc ornare
                         cursus id eu varius.</p>
                 </div>
@@ -177,8 +177,8 @@
         style="background-color: rgb(249, 248, 244); width: 100%; overflow: hidden; box-sizing: border-box; padding-top: 50px; padding-bottom: 50px; position: relative; padding-left: 15%; padding-right: 15%;">
 
         <!-- First Layer -->
-        <div style="width: 50%; float:left; background-color: transparent; vertical-align:top;  ">
-            <h3 class="title" style="line-height: 45px;">Photography. </br> of Different Rooms</h3>
+        <div class="vertical-center" style="width: 50%; float:left; background-color: transparent; vertical-align:top;  ">
+            <h3 class="title" style="line-height: 45px;">Photography, </br>Of Different Rooms</h3>
         </div>
 
         <div style="width:0%; float:right; vertical-align:top; bottom:0; margin-left: 20%; ">
@@ -202,21 +202,22 @@
     <div id="footer">
         <!-- First Layer -->
         <div style="width: 50%; float:left; background-color: transparent; vertical-align:top;  ">
-            <h3 class="title whiteText" style="line-height: 45px;">Ready To Get Started?</h3>
+            <h3 class="title whiteText marginSpacing" style="line-height: 45px;">Ready To Get Started?</h3>
             <button class="thirdBtn">Get In Touch With Us</button>
             <button class="thirdBtn">Book an Appointment</button>
+            <p class="disclaimer whiteText">All Materials © 2020 | Site By Sleepless</p>
         </div>
 
-        <div style="width:50%; float:right; vertical-align:top; bottom:0; margin-left: 20%; ">
+        <div class =" marginSpacing" style="width:50%; float:right; vertical-align:top; bottom:0;">
             <div style="width:50%;float:left;">
-                <p class="whiteText">Our Mission</p>
-                <p class="whiteText">Services</p>
-                <p class="whiteText ">Our Team</p>
+                <p class="whiteText opacityLight">Our Mission</p>
+                <p class="whiteText opacityLight">Services</p>
+                <p class="whiteText opacityLight ">Our Team</p>
             </div>
 
             <div style="width:50%;float:right;">
-                <p class="whiteText">Contact Us</p>
-                <p class="whiteText">New Blood</p>
+                <p class="whiteText opacityLight">Contact Us</p>
+                <p class="whiteText opacityLight">New Blood</p>
             </div>
 
         </div>
