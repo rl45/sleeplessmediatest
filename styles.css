@@ -377,6 +377,9 @@ button{
     .footerLinksRight{
         float: none;
     }
+    .logo{
+        float: none;
+    }
  
 
  
@@ -384,6 +387,94 @@ button{
 }
 
 @media only screen and (min-width: 768px) {
+
+    .tab{
+        margin-right: 0px;
+    }
+
+    .quote{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .featureWrapper{
+        width: 100%;
+    }
+    .featureImg{
+        display: none;
+    }
+    div.gallery {
+        padding-left: 0px;
+    }
+    .featureTitle{
+        line-height: normal;
+    }
+    .gridLeftWrapper{
+        width: 100%;
+    }
+    .gridRightWrapper{
+        width: 100%;
+    }
+    .teamLeftWrapper{
+        width: 100%;
+        padding-left: 90px;
+        padding-right: 10px;
+    }
+    .teamRightWrapper{
+        width: 100%;
+        margin-top: 50px;
+        padding-left: 90px;
+        float: none;
+    }
+    .team{
+        padding-left: 90px;
+        padding-right: 90px;
+        width: 100%;
+    }
+    .alignRight{
+        position: static;
+        margin: 10px;
+    }
+    div.gallery {
+        width: 40%;
+    }
+    .photographyFirstWrapper{
+        padding-left: 0px; 
+        padding-right: 0px;
+    }
+    .photographyTitle{
+        width: 100%;
+        padding-left: 90px;
+    }
+    .leftImagePhotography{
+        width: 100%; 
+        float:none;
+        margin-bottom: 10%;
+
+    }
+    .rightImagePhotography{
+        width:20%; float:right; vertical-align:top; bottom:0;
+    }
+    .photographySecondWrapper{
+        padding-left: 90px; padding-right: 90px;
+    }
+    .footerLinksWrapper{
+       float: none;
+    }
+    .footerLinksRight{
+        float: none;
+    }
+    #photographyImage{
+        padding-right: 90px;
+    }
+    .fullWidth{
+        width: 100%;
+    }
+    .marginRight{
+        margin-right: 10px;
+    }
+    .logo{
+        float: none;
+    }
     
 }
 @media only screen and (min-width: 1000px) {
