@@ -25,6 +25,7 @@ div.gallery {
     margin: 5px;
     float: left;
     width: 250px;
+    padding-left: 35px;
   }
     
   div.gallery img {
@@ -249,4 +250,106 @@ button{
   body{
       margin: 8px 0px 8px !important;
   }
+
+  .featureWrapper{
+    width: 60%; float:left; background-color: transparent; vertical-align:top; padding-left: 90px;
+  }
+  .gridLeftWrapper{
+    width: 50%;
+    float:left;
+  }
+  .gridRightWrapper{
+    width: 50%;
+    float:right;
+  }
+  .teamLeftWrapper{
+    width: 50%; float:left; background-color: transparent; vertical-align:top; padding-left: 90px; 
+  }
+  .teamRightWrapper{
+    width:30%; float:right; vertical-align:bottom;  position: relative; bottom:0;right:0; margin-top: 90px;
+  }
+  .team{
+    padding-left: 90px;
+  }
+  .photographyFirstWrapper{
+    background-color: rgb(249, 248, 244); width: 100%; overflow: hidden; box-sizing: border-box; padding-top: 50px; padding-bottom: 50px; position: relative; padding-left: 15%; padding-right: 15%;
+}
+.photographyTitle{
+    width: 50%; float:left; background-color: transparent; vertical-align:top;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .tab{
+        margin-right: 0px;
+    }
+
+    .quote{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .featureWrapper{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .featureImg{
+        display: none;
+    }
+    div.gallery {
+        padding-left: 0px;
+    }
+    .featureTitle{
+        line-height: normal;
+    }
+    .gridLeftWrapper{
+        width: 100%;
+    }
+    .gridRightWrapper{
+        width: 100%;
+    }
+    .teamLeftWrapper{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .teamRightWrapper{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .alignRight{
+        position: static;
+        margin: 10px;
+    }
+    .title{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    div.gallery {
+        width: auto;
+    }
+    .team{
+          padding-left: 0px;
+    }
+    .photographyFirstWrapper{
+        padding-left: 0px; 
+        padding-right: 0px;
+    }
+    .photographyTitle{
+        width: 100%;
+    }
+ 
+
+ 
+
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+@media only screen and (min-width: 1000px) {
+    
+}
 

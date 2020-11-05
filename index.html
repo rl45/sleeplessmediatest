@@ -12,13 +12,12 @@
 <body class="body">
     <!-- Navbar -->
     <div class="row">
+        <div class="logoWrapper">
         <img class="logo" src="logo.png" alt="Sleepless Media" />
         <!-- Title -->
         <div style="display: inline-block; " class="verticalCenter">
-            <!-- <h3 style="font-size:25px;font-weight: 550; letter-spacing: 4px; line-height:0px;"
-                class="secondary-color-spacing padding20">SLEEPLESS</h3>
-            <p style="font-size: 12px;line-height: 2px;" class="secondary-color-spacing padding20">TEST PROJECT</p> -->
             <img style="width:35%; text-align:center; padding: 20px 10px 20px;" src="logoTitle.png" />
+        </div>
         </div>
         <div class="tab">
             <button class="tablinks" onclick="clickHandle(event, 'Mission')">Our Mission</button>
@@ -43,11 +42,11 @@
 
         <!-- Features Section -->
         <div style="padding-top: 50px;"></div>
-        <div style="width: 60%; float:left; background-color: transparent; vertical-align:top; padding-left: 90px; ">
+        <div class="featureWrapper">
 
             <!-- Title -->
             <h3 class="title">Building Websites.</h3>
-            <div style="width: 50%;float:left;">
+            <div class="gridLeftWrapper">
 
                 <!-- Grid Features -->
                 <div class="gridFeature">
@@ -67,13 +66,11 @@
                     <p class="justifyText featureDesc">Purus eget, ipsum erat ut dolor sed id non, pellentesque praesent, lobortis
                         urna nunc ornare
                         cursus id eu varius.</p>
-                </div>
-
-                <button class="firstBtn" style="color:white">More About Websites</button>
-
+                </div>    
             </div>
+       
 
-            <div style="width:50%;float:right;">
+            <div class="gridRightWrapper">
                 <!-- Grid Features -->
                 <div class="gridFeature">
                     <p class="justifyText featureTitle" style="font-weight: 600;">Think Accessbility</p>
@@ -94,6 +91,7 @@
                         cursus id eu varius.</p>
                 </div>
             </div>
+            <button class="firstBtn" style="color:white">More About Websites</button>
 
         </div>
 
@@ -109,13 +107,12 @@
         style="background-color: rgb(255, 255, 255); width: 100%; overflow: hidden; padding-bottom: 50px; padding-top: 50px;">
 
         <!-- Team Header -->
-        <div style="width: 50%; float:left; background-color: transparent; vertical-align:top; padding-left: 90px; ">
+        <div class="teamLeftWrapper">
             <!-- Title -->
             <h3 class="title" style="line-height: 45px;">Meet Our Team. </br> of Dedicated Headshots</h3>
         </div>
 
-        <div
-            style="width:30%; float:right; vertical-align:bottom;  position: relative; bottom:0;right:0; margin-top: 90px;">
+        <div class="teamRightWrapper">
             <button class="alignRight secondaryBttn">Get To Know Us More</button>
         </div>
 
@@ -123,7 +120,7 @@
 
 
     <!-- Team Gallary -->
-    <div class="team" style="padding-left: 90px;">
+    <div class="team">
         <div class="gallery">
             <a target="_blank" href="portraits/1.png">
                 <img src="portraits/1.png" alt="Cinque Terre" width="900" height="800">
@@ -135,7 +132,7 @@
                     graphic or web designs. </p>
             </div>
         </div>
-        <div class="gallery" style="padding-left: 30px;">
+        <div class="gallery" >
             <a target="_blank" href="portraits/2.png">
                 <img src="portraits/2.png" alt="Cinque Terre" width="900" height="800">
             </a>
@@ -147,7 +144,7 @@
                     for use in a type specimen book. </p>
             </div>
         </div>
-        <div class="gallery" style="padding-left: 30px;">
+        <div class="gallery" >
             <a target="_blank" href="portraits/3.png">
                 <img src="portraits/3.png" alt="Cinque Terre" width="900" height="800">
             </a>
@@ -158,7 +155,7 @@
                     looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. </p>
             </div>
         </div>
-        <div class="gallery" style="padding-left: 30px;">
+        <div class="gallery" >
             <a target="_blank" href="portraits/4.png">
                 <img src="portraits/4.png" alt="Cinque Terre" width="900" height="800">
             </a>
@@ -173,16 +170,15 @@
     </div>
 
     <!-- Photography First Section -->
-    <div
-        style="background-color: rgb(249, 248, 244); width: 100%; overflow: hidden; box-sizing: border-box; padding-top: 50px; padding-bottom: 50px; position: relative; padding-left: 15%; padding-right: 15%;">
+    <div class ="photographyFirstWrapper">
 
         <!-- First Layer -->
-        <div class="vertical-center" style="width: 50%; float:left; background-color: transparent; vertical-align:top;  ">
-            <h3 class="title" style="line-height: 45px;">Photography, </br>Of Different Rooms</h3>
+        <div class="vertical-center photographyTitle">
+            <h3 class="title" id="photographyTitle" style="line-height: 45px;">Photography, </br>Of Different Rooms</h3>
         </div>
 
         <div style="width:0%; float:right; vertical-align:top; bottom:0; margin-left: 20%; ">
-            <img style="vertical-align:top; width: auto; float: right;" src="photography/1.png" />
+            <img id="filterImage" style="vertical-align:top; width: auto; float: right;" src="photography/1.png" />
         </div>
 
     </div>
