@@ -296,6 +296,9 @@ button{
     width:50%;
     float:right;
 }
+#footerCTA{
+    width: 50%; float:left; background-color: transparent; vertical-align:top; 
+}
 
 
 
@@ -310,9 +313,7 @@ button{
         margin-right: 10px;
     }
     .featureWrapper{
-        width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
+        width: auto;
     }
     .featureImg{
         display: none;
@@ -330,34 +331,38 @@ button{
         width: 100%;
     }
     .teamLeftWrapper{
-        width: 100%;
-        padding-left: 10px;
+        width: auto;
+        padding-left: 90px;
         padding-right: 10px;
     }
     .teamRightWrapper{
-        width: 100%;
+        width: auto;
         margin-top: 50px;
+        padding-left: 90px;
+        float: none;
+    }
+    .team{
+        padding-left: 90px;
+        padding-right: 90px;
     }
     .alignRight{
         position: static;
         margin: 10px;
     }
-    .title{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
     div.gallery {
-        width: auto;
-    }
-    .team{
-          padding-left: 0px;
+        width: 50%;
+        margin: 0px;
+        padding-bottom: 50px;
     }
     .photographyFirstWrapper{
         padding-left: 0px; 
         padding-right: 0px;
     }
     .photographyTitle{
-        width: 100%;
+        padding-left: 90px;
+    }
+    #photographyTitle{
+        width: 50%;
     }
     .leftImagePhotography{
         width: 100%; 
@@ -369,7 +374,7 @@ button{
         width:20%; float:right; vertical-align:top; bottom:0;
     }
     .photographySecondWrapper{
-        padding-left: 0%; padding-right: 0%;
+        padding-left: 90px; padding-right: 90px;
     }
     .footerLinksWrapper{
        float: none;
@@ -377,8 +382,20 @@ button{
     .footerLinksRight{
         float: none;
     }
+    #photographyImage{
+        padding-right: 90px;
+    }
+    .fullWidth{
+        width: 100%;
+    }
+    .marginRight{
+        margin-right: 10px;
+    }
     .logo{
         float: none;
+    }
+    #footerCTA{
+        width: auto;
     }
  
 
@@ -477,6 +494,9 @@ button{
     }
     .logo{
         float: none;
+    }
+    #footerCTA{
+        width: auto;
     }
     
 }
