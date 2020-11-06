@@ -521,3 +521,215 @@ button{
     
 }
 
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.hs {
+    display: -webkit-box;
+    display: flex;
+    overflow-x: scroll;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -20px;
+}
+
+.header {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.headline {
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+.arrows {
+    align-self: center;
+    background-color: rgb(53,85,86);
+    margin-right: 30px;
+}
+
+.arrows .arrow:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgb(53,85,86);
+    content: "";
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSI5IiB2aWV3Qm94PSIwIDAgMTUgOSI+Cgk8cGF0aCBmaWxsPSIjMzMzMzMzIiBkPSJNNy44NjcgOC41NzRsLTcuMjItNy4yMi43MDctLjcwOEw3Ljg2NyA3LjE2IDE0LjA1Ljk4bC43MDYuNzA3Ii8+Cjwvc3ZnPgo=");
+    background-size: contain;
+    -webkit-filter: brightness(5);
+    filter: brightness(5);
+    width: 18px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.arrows .arrow.disabled:before {
+    -webkit-filter: brightness(2);
+    filter: brightness(2);
+}
+
+.arrows .arrow.arrow-prev:before {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-right: 10px;
+}
+
+.arrows .arrow.arrow-next:before {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.item {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: calc(100% / 4 - (10px * 2) - (20px / 4));
+    margin: 10px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media only screen and (max-width: 990px) {
+    .item {
+        flex-basis: calc(100% / 2 - (10px * 2) - (20px / 3));
+    }
+}
+
+.item:last-child:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 1px;
+    right: calc(10px * 2 * -1);
+}
+
+.item:first-child {
+    margin-left: calc(10px * 2);
+}
+
+.item_description {
+    z-index: 1;
+    align-self: flex-start;
+    margin: 10px 0;
+}
+
+.item_title {
+    font-weight: bolder;
+}
+
+.item_subtitle {
+    color: #aaa;
+    display: block;
+}
+
+.item_image_wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+}
+
+.item_image {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 990px) {
+    .wrapper {
+        overflow: hidden;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .wrapper .arrows {
+        display: none;
+    }
+
+    .wrapper .item {
+        -webkit-box-flex: 1;
+        flex: 1 0 calc(23% - 10px * 2);
+    }
+}
+
+@media only screen and (hover: none) and (pointer: coarse) and (max-width: 990px) {
+    .wrapper .item {
+        -webkit-box-flex: 1;
+        flex: 1 0 calc(45% - 10px * 2);
+    }
+}
+
+/* Base Styling */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Muli', sans-serif;
+    line-height: 1.5;
+    letter-spacing: .15px;
+}
+
+.container {
+    max-width: 990px;
+    padding: calc(10px * 2);
+    margin: 0 auto;
+    background: #121212;
+    mix-blend-mode: invert;
+    position: relative;
+}
+
+.container:after {
+    content: '';
+    width: 100vw;
+    height: 100%;
+    background: #212121;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+@media only screen and (min-width: 990px) {
+    .container {
+        padding: calc(10px * 4) calc(10px * 8);
+    }
+}
+
+.description {
+    max-width: 990px;
+    color: #212121;
+    margin: 0 auto;
+    padding: calc(10px * 4);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
