@@ -555,7 +555,10 @@ button{
 .arrows {
     align-self: center;
     background-color: rgb(53,85,86);
-    margin-right: 30px;
+    z-index: 3;
+    right: 0px;
+    padding: 15px;
+    position: absolute;
 }
 
 .arrows .arrow:before {
@@ -568,8 +571,8 @@ button{
     background-size: contain;
     -webkit-filter: brightness(5);
     filter: brightness(5);
-    width: 18px;
-    height: 12px;
+    width: 36px;
+    height: 24px;
     cursor: pointer;
 }
 
