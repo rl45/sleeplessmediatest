@@ -555,7 +555,7 @@ button{
 .arrows {
     align-self: center;
     background-color: rgb(53,85,86);
-    z-index: 3;
+    z-index: 2;
     right: 0px;
     padding: 15px;
     position: absolute;
